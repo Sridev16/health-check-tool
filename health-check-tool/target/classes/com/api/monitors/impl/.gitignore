@@ -1,0 +1,9 @@
+/target/classes/*
+/.project
+/.classpath
+/.settings
+**/bin
+/ClientImpl.class
+/ConfigFileImpl.class
+/FileStorageImpl.class
+/MonitorImpl.class

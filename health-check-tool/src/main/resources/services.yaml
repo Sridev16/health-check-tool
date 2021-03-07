@@ -1,0 +1,13 @@
+services:
+  - id: 1 # Simple GET request
+    name: Mock 1
+    url: https://gorest.co.in/public-api/posts
+    httpMethod: GET
+  - id: 2 # validates response 
+    name: Mock 2
+    url: https://gorest.co.in/public-api/posts/123/comments
+    httpMethod: GET
+    respAttr:
+    - name: meta.pagination.limit
+      type: int
+      value: 20
